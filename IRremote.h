@@ -266,6 +266,11 @@ class IRsend
 		void  mark        		(unsigned int usec) ;
 		void  space       		(unsigned int usec) ;
 		void  sendRaw     		(const unsigned int buf[],  unsigned int len,  unsigned int hz) ;
+	
+		# add 2020-6-8
+		void sendRaw2(unsigned int buf[], int len, int hz);
+		VIRTUAL void mark2(unsigned int usec);
+		VIRTUAL void space2(unsigned int usec);
 
 		//......................................................................
 #		if SEND_RC5
