@@ -1,4 +1,6 @@
 # IRremote Arduino Library
+### 2020-06-08 arduino红外遥控库IRremote的IRsend类sendRaw函数溢出问题及其解决方法 https://www.cnblogs.com/dehai/p/3730156.html
+### add sendRaw2()
 
 [![Build Status](https://travis-ci.org/z3t0/Arduino-IRremote.svg?branch=master)](https://travis-ci.org/z3t0/Arduino-IRremote)
 
